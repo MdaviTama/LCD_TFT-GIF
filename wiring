@@ -1,0 +1,10 @@
+| Pin LCD              | Pin ESP32-C3 SuperMini             |
+| -------------------- | ---------------------------------- |
+| DC                   | GPIO 7                             |
+| RST                  | GPIO 5                             |
+| CS                   | CS = -1 in code                    |
+| SDA / DIN            | GPIO 6 (SPI MOSI default ESP32-C3) |
+| SCL / CLK            | GPIO 4 (SPI SCK default ESP32-C3)  |
+| VCC                  | 3.3V                               |
+| GND                  | GND                                |
+| BL/BLK/LED           | - (or 3.3v)                        |
