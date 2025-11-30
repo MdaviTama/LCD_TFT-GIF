@@ -4,7 +4,7 @@
 | RST                  | GPIO 5                                       |
 | CS                   | CS = -1 in code (some LCD dont have cs pin)  |
 | SDA / DIN            | GPIO 6 (SPI MOSI default ESP32-C3)           |
-| SCL / CLK            | GPIO 4 (SPI SCK default ESP32-C3)            |
+| SCL / SLK            | GPIO 4 (SPI SCK default ESP32-C3)            |
 | VCC                  | 3.3V                                         |
 | GND                  | GND                                          |
 | BL/BLK/LED           | - (or 3.3v)                                  |
